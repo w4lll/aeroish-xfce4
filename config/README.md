@@ -27,7 +27,7 @@ If one of these panel applets are not listed, please add/install these plugins:
 (Clipman is optional.)
 
 6. Restart the panel (`xfce4-panel -r`).
-7. Configure these applet:
+7. Configure these applets:
 - Docklike plugin (hold CTRL then select properties):
 <img width="459" height="683" alt="image" src="https://github.com/user-attachments/assets/b3a365d3-c088-4e9d-b62a-0a9f71753875" />
 
