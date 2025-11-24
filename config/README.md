@@ -19,7 +19,7 @@ If one of these panel applets are not listed, please add/install these plugins:
 1. Download the gtk-3.0 folder and put the contents of the files (gtk.css, orb-related image) on '~/.config/gtk-3.0'. If you have an exisiting gtk.css, rename it or put it somewhere safe if you want to restore the original gtk.css later.
 2. Back up your current panel profile if needed.
 3. Set the panel height to 40, and fixed icon size to 16.
-4. If you're on a fresh install of xfce, delete the dock (Panel 2 or whatever the bottom panel is).
+4. If you're on a fresh install of xfce, delete the dock (Panel 2 or whatever the bottom panel/dock is if there are two panels).
 5. Change the order of the panel applets like this:
 
 <img width="377" height="654" alt="image" src="https://github.com/user-attachments/assets/a5f6cc58-51f5-4977-8902-7cdf63f94bf8" />
