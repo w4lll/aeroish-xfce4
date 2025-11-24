@@ -16,7 +16,7 @@ If one of these panel applets are not listed, please add/install these plugins:
 - Application menu (if don't want to use whisker menu plugin, the orb already configured).
 
 ## Installation
-1. Download the gtk-3.0 folder and put the contents of the files (gtk-3.0.css, orb-related image) on '~/.config/gtk-3.0'. If you have an exisiting gtk.css, rename it.
+1. Download the gtk-3.0 folder and put the contents of the files (gtk.css, orb-related image) on '~/.config/gtk-3.0'. If you have an exisiting gtk.css, rename it.
 2. Back up your current panel profile if needed.
 3. Set the panel height to 40, and fixed icon size to 16.
 4. If you're on a fresh install of xfce, delete the dock (Panel 2 or whatever the bottom panel is).
