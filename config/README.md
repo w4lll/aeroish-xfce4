@@ -1,5 +1,5 @@
-# Config Files
-A config file provided for this theme/setup. Picom config is optional, you can use it to match my setup animations.
+# Configuration Files
+A configuration file provided for this theme/setup. Picom config is optional, you can use it to match my setup animations.
 
 Tested on: Arch Linux with XFCE 4.20
 
