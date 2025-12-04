@@ -9,11 +9,9 @@ The panel configuration that can make it look aero-ish.
 <img width="1366" height="40" alt="image" src="https://github.com/user-attachments/assets/9b23ccbf-ac66-432a-9588-c2562f32c1ec" />
 
 
-## Requirements
-If one of these panel applets are not listed, please add/install these plugins:
-- Docklike plugin (required for Windows 7-like taskbar icons).
+## External Plugins Used
+- Docklike plugin (Windows 7-like "always combine, hide habels").
 - Whisker menu plugin (for the start menu).
-- Application menu (if don't want to use whisker menu plugin, the orb already configured).
 
 ## Installation
 1. Download the gtk-3.0 folder and put the contents of the files (gtk.css, orb-related image) on '~/.config/gtk-3.0'. If you have an exisiting gtk.css, rename it or put it somewhere safe if you want to restore the original gtk.css later.
