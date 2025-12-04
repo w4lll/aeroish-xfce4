@@ -1,7 +1,29 @@
 /* This part is used for xfce4 (mainly panel) styling. */
 
-/* Docklike plugin are required for this. I didn't implement one for window
-buttons plugin. */
+/* Window Buttons */
+.tasklist button {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom,
+                                      rgba(255,255,255,0.5),
+                                      rgba(135,165,202,0));
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.375) inset;
+    color: #ffffff;
+    text-shadow: none;
+    margin: 0 1px;
+}
+
+.tasklist button:checked {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom,
+                                      rgba(255,255,255,0.875),
+                                      rgba(255,255,255,0.25));
+    border: 1px solid rgba(0,0,0,0.5);
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.5) inset;
+}
+
+/* Docklike plugin */
 #docklike-plugin button {
     padding: 0;
     min-width: 56px;
@@ -46,29 +68,6 @@ buttons plugin. */
     border: 1px solid rgba(0,0,0,0.5);
     box-shadow: 0 0 0 1px rgba(255,255,255,0.5) inset;
 }
-
-/* Application menu for non-orb/classic style (took the css from bluementa). */
-
-/* #applicationmenu-button {
-    background-color: transparent;
-    background-image: linear-gradient(to bottom,
-                                      @button_gradient_color_a,
-                                      @button_gradient_color_b);
-    border: 1px solid @borders;
-    padding: 0 6px;
-    margin: 1px;
-    font-weight: bold;
-    margin-right: 5px;
-    transition: 500ms;
-}
-
-#applicationmenu-button:checked {
-    background-color: transparent;
-    background-image: linear-gradient(to bottom,
-                                      @button_active_gradient_color_a,
-                                      @button_active_gradient_color_b);
-    border: 1px solid #848484;
-} */
 
 /* Applications menu and whisker menu with an orb, based on PNG. */
 
